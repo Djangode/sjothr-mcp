@@ -1,0 +1,36 @@
+{
+  "name": "sjothr-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Sjothr: AI agents read the public company fundraising campaigns on Base (goal, capital raised, deadline), the rules of a raise (fees, staged release, refunds) and the guides. Read-only, no key.",
+  "mcpName": "io.github.Djangode/sjothr-mcp",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "sjothr-mcp": "src/bridge.mjs"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node src/bridge.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djangode/sjothr-mcp.git"
+  },
+  "homepage": "https://sjothr.xyz",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tokenization",
+    "fundraising",
+    "crowdfunding",
+    "base",
+    "usdc",
+    "sjothr"
+  ]
+}
