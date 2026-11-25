@@ -1,14 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Djangode/sjothr-mcp",
-  "title": "Sjothr company tokenization and fundraising",
-  "description": "Read Sjothr company fundraising campaigns on Base: USDC raises, rules, refunds and guides.",
+  "title": "Sjothr startup raises and credit risk market",
+  "description": "Sjothr on Base: startup raises, credit risk tranches, resale Market, unsigned transactions.",
   "websiteUrl": "https://sjothr.xyz",
   "repository": {
     "url": "https://github.com/Djangode/sjothr-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "remotes": [
     {
       "type": "streamable-http",
