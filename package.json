@@ -1,6 +1,6 @@
 {
   "name": "sjothr-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server for Sjothr: AI agents read the public company fundraising campaigns on Base (goal, capital raised, deadline), the rules of a raise (fees, staged release, refunds) and the guides. Read-only, no key.",
   "mcpName": "io.github.Djangode/sjothr-mcp",
   "type": "module",
