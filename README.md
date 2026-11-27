@@ -50,6 +50,8 @@ https://sjothr.xyz/api/mcp
 | `sjothr_market_prepare` | Unsigned transactions to sell, buy, validate an exchange, cancel or collect on the Market, checked against the contract. |
 | `sjothr_backer` | A raise seen from a wallet: rounds, proposed round and its vote, kept tokens. |
 | `sjothr_backer_prepare` | Unsigned transaction to vote on a round or a capital release, claim a refund or redeem the remaining capital. |
+| `sjothr_founder` | The raise a founder wallet created: supply, each round with its vault (raised, released, withdrawn, available), the round proposed to backers, published updates. |
+| `sjothr_founder_prepare` | Unsigned transactions of a founder: create the token and its first round, propose the next rounds up to the listing round, publish an update, request a tranche, record a vote, withdraw, cancel. |
 | `search` | Search campaigns, credit risk portfolios and guides (raise money for a startup, milestone-based funding, credit risk). |
 | `fetch` | Full record of a campaign or a portfolio, or full text of a guide, by id from `search`. |
 
